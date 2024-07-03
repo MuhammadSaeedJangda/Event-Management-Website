@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management Company - Testimonials</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { padding-top: 56px; }
+        .testimonial-box {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .testimonial-box img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .testimonial-box .testimonial-content {
+            flex-grow: 1;
+        }
+        .testimonial-box .testimonial-content h5 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .testimonial-box .testimonial-content p {
+            font-size: 1.1em;
+        }
+        .navbar {
+            background: linear-gradient(45deg, #ff6f61, #de1f7c);
+        }
+        .navbar-brand {
+            font-family: 'Pacifico', cursive;
+            font-size: 1.8em;
+        }
+h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+    </style>
+</head>
+<body>
+   <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="index.html">EventCo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="testimonials.html">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="booking.html">Booking</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="container mt-5">
+        <h2 class="text-center">Client Testimonials</h2>
+        <div class="mt-4">
+            <div class="testimonial-box">
+                <img src="client1.png" alt="Client 1">
+                <div class="testimonial-content">
+                    <h5>John Doe</h5>
+                    <p>"EventCo made our wedding day absolutely perfect. Their attention to detail and seamless coordination were outstanding."</p>
+                </div>
+            </div>
+            <div class="testimonial-box">
+                <img src="client2.jpg" alt="Client 2">
+                <div class="testimonial-content">
+                    <h5>Jane Smith</h5>
+                    <p>"Our corporate event was a huge success thanks to EventCo. The team was professional and ensured everything ran smoothly."</p>
+                </div>
+            </div>
+            <div class="testimonial-box">
+                <img src="client3.jpg" alt="Client 3">
+                <div class="testimonial-content">
+                    <h5>Emily Johnson</h5>
+                    <p>"I couldn't have asked for a better birthday party planner. EventCo exceeded all my expectations and made my day special."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
